@@ -17,7 +17,7 @@ __CRA__ configura nuestro ambiente dde desarrollo habilitando las últimas carac
 Finalizado este proceso, estaremos en condiciones de __probar nuestra nueva app.__  
   
 Usando el comando cd my-app (recuerda cambiar my-app por el nombre de tu app) nos moveremos al directorio generado por React con la estructura de archivos de nuestra app.   
-![Ract](ReactComandos.png)
+![React](/Imagenes/ReactComandos.png)
 ***
 
 ## ¿Cómo evitamos que se cree una nueva carpeta? ##
@@ -40,13 +40,13 @@ Comencemos a desarmar parte por parte todos los elementos que componen un proyec
 
 ![carpteas](/imagenes/carpetas.png)  
 
-![node_modues](/imagenes/node.png)
+![node_modules](/imagenes/node.png)
 
 ![public](/imagenes/public.png)
 
 ![src](/imagenes/src.png)
 
-![package.json](/imagenes/package.png)  
+![package.json](/imagenes/package.png)
 ***
 ## ¿Cómo convive la estructura MVC con React? ##
 Todo muy lindo con React, pero ¿cómo encaja dentro del esquema MVC?
