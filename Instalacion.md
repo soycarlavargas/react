@@ -34,25 +34,3 @@ Por ej, no podemos nombrarla con "React App", lo correcto es "react-app".
 
 ## ¿Por qué usamos Create React App con npx?
 Dado que ***create-react-app*** es un paquete de Node.js que deseamos ejecutar sólo una vez por cada proyecto no buscamos instalarlo permanentemente, sino que tiene sentido descargarlo y ejecutarlo al vuelo para luego continuar con lo que nos interesa. Además de esta forma, nos aseguramos de utilizar la última versión disponible. ¡Sencillo, ágil y al día!
-***
-## Estructura de carpetas ##
-Comencemos a desarmar parte por parte todos los elementos que componen un proyecto en React en términos de carpetas y archivos relevantes. Así se debería ver el directorio de nuestro proyecto una vez ejecutados los comandos **npx create-react-app “mi-proyecto”**, luego **cd “mi-proyecto”**, y por último **npm start**.  
-
-![carpetas](/imagenes/carpetas.png)  
-
-![node_modules](/imagenes/node.png)
-
-![public](/imagenes/public.png)
-
-![src](/imagenes/src.png)
-
-![package.json](/imagenes/package.png)
-***
-## ¿Cómo convive la estructura MVC con React? ##
-Todo muy lindo con React, pero ¿cómo encaja dentro del esquema MVC?
-
-React viene a ser la V dentro de este patrón de diseño, es decir, todo lo que hagamos con React está pensado para ser las vistas de nuestra aplicación.
-
-Hasta ahora, todo lo habíamos construido directamente dentro de Express y desde allí respondíamos a las peticiones hechas por el cliente con las vistas, pero antes de que la vista viajara al navegador necesitábamos dejar todo listo (datos, variables y demás).
-
-Ahora, con la potencia que nos dan las APIs, vamos a poder construir todo el front-end con React y consumir los datos del back-end a través de peticiones asincrónicas. De esa manera podremos separar radicalmente la lógica del back-end de la lógica del front-end.
