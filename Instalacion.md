@@ -38,7 +38,7 @@ Dado que ***create-react-app*** es un paquete de Node.js que deseamos ejecutar s
 ## Estructura de carpetas ##
 Comencemos a desarmar parte por parte todos los elementos que componen un proyecto en React en términos de carpetas y archivos relevantes. Así se debería ver el directorio de nuestro proyecto una vez ejecutados los comandos **npx create-react-app “mi-proyecto”**, luego **cd “mi-proyecto”**, y por último **npm start**.  
 
-![carpteas](/imagenes/carpetas.png)  
+![carpetas](/imagenes/carpetas.png)  
 
 ![node_modules](/imagenes/node.png)
 
